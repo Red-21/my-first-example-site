@@ -342,7 +342,7 @@ background-color: #e3e3e3;
   .modern-1{
     width: 350px;
   }
-  .white1{
+  .white-1{
     width: 350px;
   }
   .nice-1{
@@ -363,10 +363,28 @@ background-color: #e3e3e3;
   .project-title{
     font-size: 35px;
   }
+  .navigation{
+    font-size: 22px;
+  }
+    .linkbos{
+  display: none;
+  }
+  .modern-1{
+    width: 250px;
+  }
   .white-1{
     width: 250px;
   }
-  .navigation{
-    font-size: 22px;
+  .nice-1{
+    width: 250px;
+  }
+  .modern-2{
+    width: 250px;
+  }
+  .white-2{
+    width: 250px;
+  }
+  .nice-2{
+    width: 250px;
   }
 }
