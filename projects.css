@@ -1,0 +1,335 @@
+:root{
+ background-image: url("./img/banner.jpeg");
+}
+body{
+ margin: 0;
+}
+.header{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+align-items: center;
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+margin-top: 5px;
+}
+.navigation{
+ font-size: 30px;
+ border-top: 4px solid #626262;
+}
+.navigation a{
+  text-decoration: none;
+  margin: 0 15px;
+  color:black;
+  text-shadow:2px 2px 2px rgba(206,89,55,0);
+}
+.navigation a:hover{
+background-color: #c6a8a4;
+border-radius: 20px;
+padding: 1px 2px;
+box-sizing: border-box;
+}
+.linkbos{
+ float: right;
+transform: translate(90px, 90px);
+transform: scale(0.1);
+margin-top: -14%;
+margin-right: -5%;
+}
+.project-title{
+ font-size: 42px;
+ border-bottom: 4px solid #626262;
+text-shadow:2px 2px 2px rgba(206,89,55,0);
+color: black;
+}
+/* Start of Modern House */
+
+.house-modern{
+ display: flex;
+ justify-content: space-around;
+ background-color: rgba(227, 227, 227, 0.9);
+ margin: 240px 0px 0px -8px;
+ padding-top: 50px;
+ padding-bottom: 50px;
+ box-sizing: border-box;
+ border-top: 4px solid #c6a8a4;
+ border-bottom: 4px solid #a91241;
+}
+.modern-1{
+ width: 500px;
+ order: 1;
+ box-shadow: 5px 5px 15px 5px #000000;
+ z-index: 2;
+}
+.modern-2{
+ width: 500px;
+ order: 3;
+ box-shadow: 5px 5px 15px 5px #000000;
+}
+.house-modern-content{
+ flex-basis: 40%;
+ order: 2;
+ background-color: #c6a8a4;
+ box-shadow: inset 0px 10px 27px -8px #141414;
+ margin: 110px -250px -90px -250px;
+ text-align: center;
+ box-sizing: border-box;
+ padding: 80px;
+}
+.house-modern-content h2{
+ margin-top: -20px;
+ padding-bottom: 40px;
+ font-size: 2em;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+letter-spacing: 2px;
+word-spacing: 2px;
+}
+/* End of Modern House */
+
+/* Start of White House */
+
+.house-white{
+ display: flex;
+ justify-content: space-around;
+ background-color: rgba(227, 227, 227, 0.9);
+ margin: 0px 0px 0px -8px;
+ padding-top: 180px;
+ padding-bottom: 50px;
+ box-sizing: border-box;
+ border-bottom: 4px solid #12428a;
+}
+.white-1{
+ width: 500px;
+ order: 1;
+ box-shadow: 5px 5px 15px 5px #000000;
+ z-index: 2;
+}
+.white-2{
+ width: 500px;
+ order: 3;
+ box-shadow: 5px 5px 15px 5px #000000;
+}
+.house-white-content{
+ flex-basis: 40%;
+ order: 2;
+ background-color: #a91241;
+ box-shadow: inset 0px 10px 27px -8px #141414;
+ margin: 150px -250px -90px -250px;
+ text-align: center;
+ box-sizing: border-box;
+ padding: 80px;
+}
+.house-white-content h2{
+ margin-top: -20px;
+ padding-bottom: 40px;
+ font-size: 2em;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+letter-spacing: 2px;
+word-spacing: 2px;
+}
+/* End of White House */
+
+/* Start of Nice House */
+.house-nice{
+ display: flex;
+ justify-content: space-around;
+ background-color: rgba(227, 227, 227, 0.9);
+ margin: 0px 0px 0px -8px;
+ padding-top: 180px;
+ padding-bottom: 50px;
+ box-sizing: border-box;
+}
+.nice-1{
+ width: 550px;
+ order: 1;
+ box-shadow: 5px 5px 15px 5px #000000;
+ z-index: 2;
+}
+.nice-2{
+ width: 540px;
+ order: 3;
+ box-shadow: 5px 5px 15px 5px #000000;
+}
+.house-nice-content{
+ flex-basis: 40%;
+ order: 2;
+ color: 	#B8B8D3;
+ background-color: #232a5b;
+ box-shadow: inset 0px 10px 27px -8px #141414;
+ margin: 150px -250px -90px -250px;
+ text-align: center;
+ box-sizing: border-box;
+ padding: 80px;
+}
+.house-nice-content h2{
+ margin-top: -20px;
+ padding-bottom: 40px;
+ font-size: 2em;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+letter-spacing: 2px;
+word-spacing: 2px;
+}
+/* End of Nice House */
+
+footer{
+background-color: #e3e3e3;
+ margin: 0px 0px -10px -8px;
+ padding-top: 120px;
+ box-sizing: border-box;
+ border-bottom: 6px solid #12428a;
+ text-align: center;
+ font-size: 13px;
+}
+/* Media queries */
+
+@media screen and (max-width:1550px){
+  .linkbos{
+    margin-top: -18%;
+    margin-right: -6%;
+  }
+  .modern-1{
+    z-index: 1;
+  }
+  .house-modern-content{
+   z-index: 2;
+   flex-basis: 30%;
+   padding: 25px;
+  }
+  .white-1{
+    z-index: 1;
+  }
+  .house-white-content{
+    z-index: 2;
+    flex-basis: 30%;
+    padding: 25px;
+  }
+  .nice-1{
+    z-index: 1;
+  }
+  .house-nice-content{
+    z-index: 2;
+    flex-basis: 30%;
+    padding: 25px;
+  }
+}
+@media screen and (max-width:1200px){
+  .linkbos{
+    margin-top: -24%;
+    margin-right: -9%;
+  }
+  .modern-1{
+    height: 350px;
+    width: 350px;
+  }
+  .modern-2{
+    height: 350px;
+    width: 350px;
+  }
+  .house-modern-content{
+   padding: 25px;
+   flex-basis: inherit;
+   margin-left: -80px;
+   margin-right: -80px;
+  }
+  .house-white{
+    padding-top: 100px;
+    padding-bottom: 0px;
+  }
+  .white-1{
+    height: 350px;
+    width: 350px;
+  }
+  .white-2{
+    height: 350px;
+    width: 400px;
+  }
+  .house-white-content{
+   padding: 25px;
+   flex-basis: inherit;
+   margin-top: 70px;
+   margin-left: -60px;
+   margin-right: -120px;
+  }
+  .nice-1{
+    height: 350px;
+    width: 350px;
+  }
+  .nice-2{
+    height: 350px;
+    width: 400px;
+  }
+  .house-nice-content{
+   padding: 25px;
+   flex-basis: inherit;
+   margin-top: 70px;
+   margin-left: -60px;
+   margin-right: -120px;
+  }
+}
+@media screen and (max-width:1000px){
+  .linkbos{
+    margin-top: -30%;
+    margin-left: -10%;
+    float: left;
+  }
+  .house-modern{
+ flex-direction: column;
+ align-items: center;
+}
+.modern-1{
+    height: 350px;
+    width: 450px;
+  }
+  .modern-2{
+    height: 350px;
+    width: 450px;
+  }
+  .house-modern-content{
+   padding: 35px;
+   margin: 25px 0 25px 0;
+  }
+  .house-white{
+ flex-direction: column;
+ align-items: center;
+}
+.white-1{
+    height: 350px;
+    width: 450px;
+  }
+  .white-2{
+    height: 350px;
+    width: 350px;
+    margin-bottom: 35px;
+  }
+  .house-white-content{
+   padding: 35px;
+   margin: 25px 0 25px 0;
+  }
+  .house-nice{
+ flex-direction: column;
+ align-items: center;
+}
+.nice-1{
+    height: 350px;
+    width: 450px;
+  }
+  .nice-2{
+    height: 350px;
+    width: 450px;
+  }
+  .house-nice-content{
+   padding: 35px;
+   margin: 25px 0 25px 0;
+  }
+}
+@media screen and (max-width:760px){
+  .linkbos{
+    margin-top: -37%;
+    margin-left: -15%;
+  }
+}
+@media screen and (max-width:600px){
+  .linkbos{
+    margin-top: -50%;
+    margin-left: -19%;
+  }
+}
