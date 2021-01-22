@@ -206,4 +206,17 @@ margin-right: -15%;
   .subdiv1 .pic{
   width: 250px;
 }
+}@media screen and (max-width:375px){
+    .linkbos{
+  display: none;
+  }
+    .project-title{
+    font-size: 35px;
+  }
+  .navigation{
+    font-size: 22px;
+  }
+  #header{
+    margin-left: -180px;
+  }
 }
