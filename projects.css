@@ -1,5 +1,7 @@
 :root{
  background-image: url("./img/banner.jpeg");
+ background-repeat: no-repeat;
+ background-size: auto;
 }
 body{
  margin: 0;
@@ -331,5 +333,40 @@ background-color: #e3e3e3;
   .linkbos{
     margin-top: -50%;
     margin-left: -19%;
+  }
+}
+@media screen and (max-width:480px){
+  .linkbos{
+  display: none;
+  }
+  .modern-1{
+    width: 350px;
+  }
+  .white1{
+    width: 350px;
+  }
+  .nice-1{
+    width: 350px;
+  }
+  .modern-2{
+    width: 350px;
+  }
+  .white-2{
+    width: 350px;
+  }
+  .nice-2{
+    width: 350px;
+  }
+}
+@media screen and (max-width:375px){
+
+  .project-title{
+    font-size: 35px;
+  }
+  .white-1{
+    width: 250px;
+  }
+  .navigation{
+    font-size: 22px;
   }
 }
